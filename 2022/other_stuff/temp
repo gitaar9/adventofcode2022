@@ -1,0 +1,12 @@
+namespace N
+{
+    class my_class
+    {
+    private:
+        float only_reachable_from_within_a_class_function;
+    public:
+        int integer_everybody_can_touch;
+        void do_something();
+    };
+
+}
